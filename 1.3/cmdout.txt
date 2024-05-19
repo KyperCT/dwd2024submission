@@ -1,0 +1,11 @@
+$ sudo docker run -itd --rm  devopsdockeruh/simple-web-service
+ae6e65a7b98b7c0632eca1ccf9269446438e6ccb4ebb25ab1615f662fb26e9c3
+$ sudo docker exec -it quizzical_mendeleev bash
+root@03b5f6283f14:/usr/src/app# ls
+server  text.log
+root@03b5f6283f14:/usr/src/app# tail -f ./text.log 
+2024-05-19 16:51:24 +0000 UTC
+2024-05-19 16:51:26 +0000 UTC
+2024-05-19 16:51:28 +0000 UTC
+2024-05-19 16:51:30 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
