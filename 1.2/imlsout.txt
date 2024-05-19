@@ -1,0 +1,2 @@
+$sudo docker image ls
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
