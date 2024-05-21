@@ -1,0 +1,17 @@
+$ sudo docker images
+REPOSITORY                          TAG             IMAGE ID       CREATED         SIZE
+devopsdockeruh/simple-web-service   ubuntu          4e3362e907d5   3 years ago     83MB
+devopsdockeruh/simple-web-service   alpine          fd312adc88e0   3 years ago     15.7MB
+...
+$ sudo docker run -d devopsdockeruh/simple-web-service:alpine
+...
+$ sudo docker exec -it strange_brattain sh
+/usr/src/app # ls
+server    text.log
+/usr/src/app # head -n 10 text.log
+2024-05-21 07:16:14 +0000 UTC
+2024-05-21 07:16:16 +0000 UTC
+2024-05-21 07:16:18 +0000 UTC
+2024-05-21 07:16:20 +0000 UTC
+2024-05-21 07:16:22 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
