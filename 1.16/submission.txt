@@ -1,0 +1,4 @@
+
+Created an account on render.com . Deploying images on render works by pulling a image from a image registry. The course page container was deployed straight from dockerhub. It can be found at https://dwd2024-cloud-host-ex.onrender.com/ .
+
+This fulfills the given instructions for the task on a recomended cloud provider, but does not produce a dockerfile. The image was presumably created with https://github.com/docker-hy/docker-hy.github.io/blob/master/Dockerfile . It is unclear to me what the intent of this task was, as the submission requirements require a file completing the task does not produce. If this submission is insufficient for the exercise, I would request more detailed instructions specifying what exactly needs to be done.
